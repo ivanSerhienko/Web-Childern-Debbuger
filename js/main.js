@@ -629,7 +629,7 @@ async function play() {
 						console.log("playStarted: ", playStarted);
 						child.style.backgroundColor = "#eb0020";
 						child.children[0].style.backgroundColor = "#eb0020";
-						display_error("Такого значенния не існує!");
+						display_error("Такого значення не існує!");
 						playStarted = false;
 						return;
 					}
